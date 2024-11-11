@@ -55,6 +55,7 @@
 - **功能**：
   - 文件会自动转换为项目。
   - 添加默认的 JavaScript 函数以实现更好的格式化和数据操作。
+  - 更多脚本请参见 [编辑器脚本](https://github.com/Vector-Index/editor/tree/main/scripts) 或 [editor repo](https://github1s.com/Vector-Index/editor)
 
 ### 返回按钮【Back Button】
 - **描述**：关闭菜单显示。
