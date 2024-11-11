@@ -1,4 +1,5 @@
 # Web-Based Editor App: Settings Manual
+[English](editor.en.md) | [简体中文](editor.zh-CN.md)
 
 This manual provides a detailed overview of the Settings menu in the web-based editor app. Here, you can learn how to customize and make the most out of each available feature.
 
