@@ -1,4 +1,4 @@
-function minifyHtml() {
+function minifyHTML() {
     const code = content.value
     window.editor.minifyHtml(code, {
         // removeAttributeQuotes: true,
@@ -8,4 +8,4 @@ function minifyHtml() {
         content.value = html
     })
 }
-minifyHtml()
+minifyHTML()

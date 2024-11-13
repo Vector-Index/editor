@@ -1,4 +1,4 @@
-function makeHeartHtml() {
+function makeHeartHTML() {
     const code = content.value
     window.editor.minifyHtml(code, {
         // removeAttributeQuotes: true,
@@ -9,4 +9,4 @@ function makeHeartHtml() {
         content.value = window.editor.ascii.heart.make(html, "<!-- ", " -->", "-")
     })
 }
-makeHeartHtml()
+makeHeartHTML()

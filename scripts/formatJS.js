@@ -1,5 +1,5 @@
 // JavaScript (babel)
-function formatJs() {
+function formatJS() {
     const code = content.value
     // console.log(code)
     window.editor.prettier.format(code, {
@@ -10,4 +10,4 @@ function formatJs() {
         content.value = code
     })
 }
-formatJs()
+formatJS()

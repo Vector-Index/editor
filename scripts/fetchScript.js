@@ -3,4 +3,4 @@ async function fetchScript(script) {
     const text = await window.utils.api.get(url)
     content.value = text
 }
-fetchScript(kwargs.script)
+fetchScript(args.script)

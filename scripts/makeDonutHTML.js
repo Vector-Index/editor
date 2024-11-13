@@ -1,4 +1,4 @@
-function makeDonutHtml() {
+function makeDonutHTML() {
     const code = content.value
     window.editor.minifyHtml(code, {
         // removeAttributeQuotes: true,
@@ -9,4 +9,4 @@ function makeDonutHtml() {
         content.value = window.editor.ascii.donut.make(html, "<!-- ", " -->", "-")
     })
 }
-makeDonutHtml()
+makeDonutHTML()

@@ -1,5 +1,5 @@
 // CSS (postcss)
-function formatCss() {
+function formatCSS() {
     const code = content.value
     window.editor.prettier.format(code, {
         parser: "css",
@@ -9,4 +9,4 @@ function formatCss() {
         content.value = code
     })
 }
-formatCss()
+formatCSS()

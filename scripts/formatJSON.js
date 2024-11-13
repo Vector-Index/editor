@@ -1,5 +1,5 @@
 // JSON (no additional plugin needed)
-function formatJson() {
+function formatJSON() {
     const code = content.value
     window.editor.prettier.format(code, {
         parser: "json",
@@ -10,4 +10,4 @@ function formatJson() {
         content.value = code
     })
 }
-formatJson()
+formatJSON()

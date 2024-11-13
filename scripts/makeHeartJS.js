@@ -1,4 +1,4 @@
-function makeHeartJs() {
+function makeHeartJS() {
     const code = content.value
     window.editor.minifyJs(code).then(result => {
         // console.log(result)
@@ -6,4 +6,4 @@ function makeHeartJs() {
         content.value = window.editor.ascii.heart.make(result.code, "// ", "", "-")
     })
 }
-makeHeartJs()
+makeHeartJS()

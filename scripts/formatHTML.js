@@ -1,5 +1,5 @@
 // HTML (html)
-function formatHtml() {
+function formatHTML() {
     const code = content.value
     window.editor.prettier.format(code, {
         parser: "html",
@@ -9,4 +9,4 @@ function formatHtml() {
         content.value = code
     })
 }
-formatHtml()
+formatHTML()
