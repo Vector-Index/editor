@@ -3,4 +3,6 @@ async function fetchScript(script) {
     const text = await window.editor.api.get(url)
     content.value = text
 }
-fetchScript(args.script)
+
+const kwargs = { script: "bar" }
+fetchScript(kwargs.script)
